@@ -1,25 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
 
 *{
 	margin: 0;
 	padding: 0;
 	text-decoration: none;
 	list-style: none;
-	color: black;
-
+	color:#2B2B2B;
 }
 
-
-
 header {
-	height: 100vh;
 	width: 100vw;
-	
 }
 
 .navbar	{
 
-	position: absolute;
 	padding: 18px;
 	display: flex;
 	align-items: center;
@@ -27,32 +21,42 @@ header {
 	width: 100%;
 	box-sizing: border-box;
 	font-family: 'Roboto', sans-serif;
-	
+	box-shadow: 0px 5px 9px 0px rgba(210,210,210,0.75);
+	-webkit-box-shadow: 0px 5px 9px 0px rgba(210,210,210,0.75);
+	-moz-box-shadow: 0px 5px 9px 0px rgba(210,210,210,0.75);
 	
 }
 
 .navbar img {
-
-width: 40px;
-height: 45px;
-margin-left: 20px;
+	width: 40px;
+	height: 45px;
+	margin-left: 20px;
 }
 
 .navbar .navlink ul {
 	display: flex;
 	color: black;
+	margin-right: 60px;
 } 
 
 
 .navbar .navlink ul li {
 	display: flex;
-	margin: 22px;
-	color: black;
+	margin: 25px;
+	font-size: 1.01em;
 } 
 
-.navbar .menu-ham {
-	display: none;
+.navbar .navlink ul li :hover {
+	text-decoration: none;
+	color: darkgrey;
+	text-decoration:underline;
 }
+
+
+.navbar .menu-ham {
+	display: none
+}
+
 @media screen and (max-width:1000px) {
 
 	.navbar .menu-ham {
@@ -64,6 +68,81 @@ margin-left: 20px;
 	.navlink{
 		display: none;
 	}
+}
+
+/*--------------------- PARTIE QUI NE CONCERNE PLUS LE BLOC1---------- */
+
+
+.bloc1 {
+	width: 100vw;
+	height: 80vh;
+	background-color: red;
+	align-content: center;
+
+}
+
+.bloc1 .presentation {
+	display: flex;
+	box-sizing: border-box;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.bloc1 .presentation img {
+	padding-left: 130px;
+	width: 30%;
+}
+
+.bloc1 .presentation .profil {
+
+	padding:130px ;
+	padding-left: 40px;
+
+}
+
+.bloc1 .presentation .profil .names{
+
+	padding-bottom:20px ;
+	
+
+}
+
+
+.bloc1 .presentation h1 {
+
+	font-family: 'Roboto', sans-serif;
+	font-size: 50px;
 	
 }
 
+.bloc1 .presentation .profil h2 {
+
+	font-family: 'Roboto400', sans-serif;
+	font-size: 40px;
+	background-color: ;
+}
+
+
+.bloc1 .presentation p {
+	
+	text-align: justify;
+	font-family: 'Roboto', sans-serif;
+	padding-bottom: 40px;
+}
+
+.bloc1 .presentation .profil button {
+	display: flex;
+	flex-direction: row-reverse;
+	padding: 20px;
+
+	margin-right: 10px;
+	border-radius: 50px 50px 50px 50px;
+	background-color: #BE7070;
+	color : white;
+    border: 1px ;
+	font-size: 16px;
+    
+	
+	
+}
