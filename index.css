@@ -21,7 +21,7 @@ header {
 	width: 100%;
 	box-sizing: border-box;
 	font-family: 'Roboto', sans-serif;
-	box-shadow: 0px 5px 9px 0px rgba(210,210,210,0.75);
+	box-shadow: 0px 5px 9px 0px rgba(237, 237, 237, 0.75);
 	-webkit-box-shadow: 0px 5px 9px 0px rgba(210,210,210,0.75);
 	-moz-box-shadow: 0px 5px 9px 0px rgba(210,210,210,0.75);
 	
@@ -72,20 +72,18 @@ header {
 
 /*--------------------- PARTIE QUI NE CONCERNE PLUS LE BLOC1---------- */
 
-
 .bloc1 {
 	width: 100vw;
 	height: 80vh;
-	background-color: red;
 	align-content: center;
-
+	background-color:#f9f9ff;
 }
+
 
 .bloc1 .presentation {
 	display: flex;
 	box-sizing: border-box;
 	align-items: center;
-	justify-content: center;
 }
 
 
@@ -94,55 +92,51 @@ header {
 	width: 30%;
 }
 
+
 .bloc1 .presentation .profil {
-
-	padding:130px ;
-	padding-left: 40px;
-
+	padding:150px ;
+	padding-left: 100px;
+	margin: 50px;
 }
+
 
 .bloc1 .presentation .profil .names{
-
-	padding-bottom:20px ;
-	
-
+	padding-bottom:20px;
 }
 
-
-.bloc1 .presentation h1 {
-
+.bloc1 .presentation .profil h1 {
 	font-family: 'Roboto', sans-serif;
 	font-size: 50px;
-	
 }
 
 .bloc1 .presentation .profil h2 {
-
 	font-family: 'Roboto400', sans-serif;
 	font-size: 40px;
-	background-color: ;
 }
 
 
 .bloc1 .presentation p {
-	
 	text-align: justify;
 	font-family: 'Roboto', sans-serif;
 	padding-bottom: 40px;
+	color: #4b4b4b;
 }
 
 .bloc1 .presentation .profil button {
-	display: flex;
-	flex-direction: row-reverse;
 	padding: 20px;
-
 	margin-right: 10px;
 	border-radius: 50px 50px 50px 50px;
 	background-color: #BE7070;
 	color : white;
     border: 1px ;
-	font-size: 16px;
-    
-	
-	
+	font-size: 14px;
+}
+
+/*--------------------- PARTIE QUI NE CONCERNE PLUS LE BLOC2---------- */
+
+.bloc2 {
+	width: 100vw;
+	height: 80vh;
+	align-content: center;
+
 }
